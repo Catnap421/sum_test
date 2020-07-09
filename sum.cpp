@@ -1,11 +1,5 @@
 #include "sum.h" // current에 있는 건 double-quote 사용
 
 int sum(int n){
-    int sum = 0;
-
-    for(int i; i <= n; i++){
-        sum += i;
-    }
-
-    return sum;
+    return (n + 1) * n / 2;
 }
